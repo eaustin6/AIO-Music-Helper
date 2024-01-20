@@ -1,7 +1,7 @@
 {
   "name": "MsGSuite-Bot",
   "description": "Telegram Bot to generate TD",
-  "repository": "https://github.com/eaustin6/Torrent-Api-py",
+  "repository": "https://github.com/eaustin6/AIO-Music-Helper",
   "logo": "https://avatars.githubusercontent.com/u/80416370?v=4",
   "keywords": ["node", "express", "heroku", "MsGSuite", "Bot"],
   "image": "heroku/nodejs"
