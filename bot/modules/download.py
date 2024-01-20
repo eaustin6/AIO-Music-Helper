@@ -14,7 +14,7 @@ from bot.helpers.kkbox.kkbox_helper import kkbox
 from bot.helpers.spotify.handler import spotify_dl
 from bot.helpers.tidal_func.events import startTidal
 
-@Client.on_message(filters.command(CMD.d))
+@Client.on_message(filters.command(CMD.DOWNLOAD))
 async def download_track(bot, update):
     if await check_id(message=update):
         try:
