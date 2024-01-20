@@ -50,7 +50,7 @@ async def download_track(bot, update):
             user_settings.set_var(update.chat.id, "ON_TASK", True)
             try:
                 if provider == "tidal":
-                    await startTidal(link, user)
+                    await tidal.start(link, user)
                 elif provider == "kkbox":
                     # TODO Fix KKBOX Metadata
                     await kkbox.start(link, user)
